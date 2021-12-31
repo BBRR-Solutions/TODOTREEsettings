@@ -1,0 +1,100 @@
+{
+    "todo-tree.general.tags": [
+        "BUG",
+        "PROBLEM",
+        "ISSUE",
+        "ERROR",
+        "CORRECTION",
+        "SECURITY",
+        "HACK",
+        "BREACH",
+        "FIX",
+        "FIXME",
+        "TOFIX",
+        "NEEDTOFIX",
+        "TODO",
+        "IMPROVEMENT",
+        "UPGRADE",
+        "MODIFICATION",
+        "WARNING",
+        "LOOK",
+        "WATCH",
+        "SEE",
+        "MONITOR",
+        "QUESTION",
+        "HELP",
+        "ESCALATED"
+    ],
+    "todo-tree.general.tagGroups": {
+        "BUG": [
+            "PROBLEM",
+            "ISSUE",
+            "ERROR",
+            "CORRECTION"
+        ],
+        "SECURITY": [
+            "HACK",
+            "BREACH"
+        ],
+        "FIX": [
+            "FIXME",
+            "TOFIX",
+            "NEEDTOFIX"
+        ],
+        "TODO": [
+            "IMPROVEMENT",
+            "UPGRADE",
+            "MODIFICATION"
+        ],
+        "WARNING": [
+            "LOOK",
+            "WATCH",
+            "SEE",
+            "MONITOR",
+            "!"
+        ],
+        "QUESTION": [
+            "HELP",
+            "ESCALATED"
+        ]
+    },
+    "todo-tree.highlights.customHighlight": {
+        "BUG": {
+            "icon": "bug",
+            "type": "text-and-comment",
+            "iconColour": "red",
+            "foreground": "red",
+        },
+        "SECURITY": {
+            "icon": "shield",
+            "type": "text-and-comment",
+            "iconColour": "yellow",
+            "foreground": "yellow",
+        },
+        "FIX": {
+            "icon": "tools",
+            "type": "text-and-comment",
+            "iconColour": "lightgreen",
+            "foreground": "lightgreen",
+        },
+        "TODO": {
+            "icon": "rocket",
+            "type": "text-and-comment",
+            "iconColour": "orange",
+            "foreground": "orange",
+        },
+        "WARNING": {
+            "icon": "search",
+            "type": "text-and-comment",
+            "iconColour": "pink",
+            "foreground": "pink",
+        },
+        "QUESTION": {
+            "icon": "organization",
+            "type": "text-and-comment",
+            "iconColour": "lightblue",
+            "foreground": "lightblue",
+        },
+    "todo-tree.filtering.ignoreGitSubmodules": true,
+    "todo-tree.general.statusBar": "tags"
+}
